@@ -25,4 +25,16 @@ Para clonar este repositorio en otra computadora, primero se debe tener Git inst
 
 Después, se abre una terminal y se utiliza el siguiente comando:
 
-git clone 
+git clone https://github.com/Themasternet2/Colin-Olvera-Ernesto-programacion-1..git
+Después de clonar el repositorio, se entra a la carpeta con:
+
+cd Colin-Olvera-Ernesto-programacion-1
+Para descargar los cambios más recientes se utiliza:
+
+git pull
+Para guardar y subir nuevos cambios al repositorio se utilizan los siguientes comandos:
+
+git add .
+git commit -m "Descripción de los cambios"
+git push
+De esta manera se pueden mantener las prácticas y proyectos actualizados y sincronizados con GitHub.
