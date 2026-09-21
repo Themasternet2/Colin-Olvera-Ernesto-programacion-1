@@ -17,4 +17,12 @@ README.md: contiene la información y documentación general del repositorio.
 .gitignore: indica los archivos y carpetas que Git debe ignorar.
 ##
 **Problemas durante la instalación:**
-Después de instalar y configurar phyton, se corrompió así que desinstalé la extención y se solucionó
+Después de instalar la extensión de Python en visual studio code, tuve un error ya que no tenía descargado python en mi computadora.
+**Solución**
+reinstale la extensión de python en Visual Studio Code y descargué Python en mi computadora.
+Cómo clonar y usar el repositorio
+Para clonar este repositorio en otra computadora, primero se debe tener Git instalado.
+
+Después, se abre una terminal y se utiliza el siguiente comando:
+
+git clone 
