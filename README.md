@@ -1,4 +1,4 @@
-# Colin-Olvera-Ernesto-programacion-1.
+# Colin-Olvera-Ernesto-programacion-1
 Nombre del alumno: Colin Olvera Ernesto
 Curso: Programación 1
 Grupo: Creeatividad Digital 2do semestre
