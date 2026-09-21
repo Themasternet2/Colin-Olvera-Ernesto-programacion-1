@@ -15,3 +15,6 @@ practicas: contiene las prácticas y ejercicios realizados durante las clases.
 proyectos: contiene los proyectos desarrollados durante el curso.
 README.md: contiene la información y documentación general del repositorio.
 .gitignore: indica los archivos y carpetas que Git debe ignorar.
+##
+**Problemas durante la instalación:**
+Después de instalar y configurar phyton, se corrompió así que desinstalé la extención y se solucionó
