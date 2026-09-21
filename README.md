@@ -1,14 +1,17 @@
 # Colin-Olvera-Ernesto-programacion-1.
-Programacion semestre 2
-Ernesto Colin Olvera
-curso-programacion 1
-grupo(NCR)-222420
-   Propósito del repositorio: evidencia de clase
-   Estructura de carpetas
-     carpeta de practicas-evidnecia de las practicas de la materia
-     carpeta de proyectos-los proyectos de las materias
-  Bitacora
-    Al instalar el IDE(visual studio) no tuve ninguna complicacion,instale la version 3.14.6 de python 
-  Repositorio
-    Para usar el repositorio solo tienes que darle clic a la carpeta que quieres abrir y abrir el archivo que se requiera
-      No se clono el repositorio ya que lo cree directamente en mi laptop
+Nombre del alumno: Colin Olvera Ernesto
+Curso: Programación 1
+Grupo: Creeatividad Digital 2do semestre
+
+Propósito del repositorio
+
+Este repositorio tiene como propósito almacenar y organizar las evidencias de clase de la materia de Programación 1. Aquí se guardarán las prácticas, tareas y proyectos realizados durante el curso.
+
+Estructura del repositorio
+
+El repositorio está organizado de la siguiente manera:
+
+practicas: contiene las prácticas y ejercicios realizados durante las clases.
+proyectos: contiene los proyectos desarrollados durante el curso.
+README.md: contiene la información y documentación general del repositorio.
+.gitignore: indica los archivos y carpetas que Git debe ignorar.
