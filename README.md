@@ -42,4 +42,4 @@ git commit -m "Descripción de los cambios"
 git push
 ```
 De esta manera se pueden mantener las prácticas y proyectos actualizados y sincronizados con GitHub.
-```bash
+
