@@ -24,17 +24,22 @@ Cómo clonar y usar el repositorio
 Para clonar este repositorio en otra computadora, primero se debe tener Git instalado.
 
 Después, se abre una terminal y se utiliza el siguiente comando:
+```bash```
+git clone https://github.com/Themasternet2/Colin-Olvera-Ernesto-programacion-1..git```
 
-git clone https://github.com/Themasternet2/Colin-Olvera-Ernesto-programacion-1..git
 Después de clonar el repositorio, se entra a la carpeta con:
-
+```bash
 cd Colin-Olvera-Ernesto-programacion-1
+```
 Para descargar los cambios más recientes se utiliza:
-
+```bash
 git pull
+```
 Para guardar y subir nuevos cambios al repositorio se utilizan los siguientes comandos:
-
+```bash
 git add .
 git commit -m "Descripción de los cambios"
 git push
+```
 De esta manera se pueden mantener las prácticas y proyectos actualizados y sincronizados con GitHub.
+```bash
