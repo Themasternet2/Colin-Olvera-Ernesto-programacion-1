@@ -10,11 +10,6 @@ print(nombre,edad,ciudad)
 
 IVA=0.16
 Precio=670
-
-
-
-
-
 print(precio)
 Total=precio+IVA
 print(total)
