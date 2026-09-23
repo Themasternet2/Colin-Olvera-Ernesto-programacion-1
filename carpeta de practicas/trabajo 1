@@ -1,0 +1,26 @@
+IVA=0.16 
+precio = 200
+total = precio# convencion: no se modifica
+print(total)
+
+nombre = "ana"
+edad= 15
+ciudad = "Guadalajara"
+print(nombre,edad,ciudad)
+
+IVA=0.16
+Precio=670
+
+
+
+
+
+print(precio)
+Total=precio+IVA
+print(total)
+
+IVA=0.16
+dolar=1000
+total=dolar-IVA
+print(total)
+
