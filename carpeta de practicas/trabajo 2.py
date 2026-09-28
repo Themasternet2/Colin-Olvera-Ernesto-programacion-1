@@ -1,5 +1,4 @@
-edad = 15
-altura = 1.75
-nombre = "Ana"
-activo = True
-bvghjb=9
+nombre = "belle"
+edad = 24
+ciudad = "Nueva eridu"
+print (nombre,ciudad,edad)
