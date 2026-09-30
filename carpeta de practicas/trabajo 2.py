@@ -63,6 +63,34 @@ print(type(v4))
 ##En los parentesis van las variables ,para print solo es type(variable)##
 
 ##Ejercicio 8##
-texto = 25
-int(texto)
-print(type(texto))
+texto = "25"
+numero_convertido = int(texto)
+
+print("Texto original:", texto, "->", type(texto))
+print("Convertido a entero:", numero_convertido, "->", type(numero_convertido))
+
+# 2. Conversión de entero a texto con str()
+numero = 100
+texto_convertido = str(numero)
+
+print("Número original:", numero, "->", type(numero))
+print("Convertido a texto:", texto_convertido, "->", type(texto_convertido))
+##pedir asesoria a la maestra##
+
+##Ejercicio 9 ##
+S = 3
+C = 4
+P = S+C
+print(P)
+S=3
+C=4
+class mayor:
+	"""Determina si el primer valor es mayor que el segundo."""
+
+	@staticmethod
+	def comparar(valor_a, valor_b):
+		return valor_a > valor_b
+
+
+mayor_es_v = mayor.comparar(S, C)
+print(mayor_es_v)
