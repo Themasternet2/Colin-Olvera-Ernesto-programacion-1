@@ -94,3 +94,4 @@ class mayor:
 
 mayor_es_v = mayor.comparar(S, C)
 print(mayor_es_v)
+##ayuda maestra no entendi##
