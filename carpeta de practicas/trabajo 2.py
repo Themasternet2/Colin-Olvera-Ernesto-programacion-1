@@ -59,3 +59,10 @@ print(type(v1))
 print(type(v2))
 print(type(v3))
 print(type(v4))
+
+##En los parentesis van las variables ,para print solo es type(variable)##
+
+##Ejercicio 8##
+texto = 25
+int(texto)
+print(type(texto))
