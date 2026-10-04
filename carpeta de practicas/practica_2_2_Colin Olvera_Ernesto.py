@@ -38,6 +38,120 @@ print(f" {v1}/{v2} es {v1/v2}")
 ## las operaciones de dos variables se tienen que usar print(f"etc)si no solo imprimira el texto dentro de los parentesis
 
 ##Ejercicio 5##
+v1= 5
+v2= 5
+print("divison:",v1/v2)
+print("residuos:",v1%v2)
 
+##para mostrar residuos se usa como si fuera una division normal pero en vez de / se usa %##
 
+##Ejercicio 6##
+##numeros distintos##
+a = 10
+b = 5
+mayor = a > b
+menor = a < b
+igual = a == b
+distinto = a != b
+print(f"{a} > {b} es {mayor}")
+print(f"{a} < {b} es {menor}")
+print(f"{a} == {b} es {igual}")
+print(f"{a} != {b} es {distinto}")
 
+##numeros iguales##
+a = 10
+b = 10
+mayor = a > b
+menor = a < b
+igual = a == b
+distinto = a != b
+print(f"{a} > {b} es {mayor}")
+print(f"{a} < {b} es {menor}")
+print(f"{a} == {b} es {igual}")
+print(f"{a} != {b} es {distinto}")
+
+##para estas operaciones funcionan muy parecido a las demas solo cambia la simbologia y siempre se usa print(f" etc)para que funcione y las variables van en {}
+
+##Ejercicio 7##
+edad = 18
+Altura = 1.60
+es_mayor_de_edad = edad >=18
+es_alto = Altura <=1.170
+es_mayor_de_edad_y_alto = es_mayor_de_edad and es_alto
+es_mayor_de_edad_o_alto = es_mayor_de_edad or es_alto
+es_mayor_de_edad_no = not es_mayor_de_edad
+
+print(f"es mayor de edad: {es_mayor_de_edad}")
+print(f"es alto: {es_alto}")
+print(f"es mayor de edad y alto: {es_mayor_de_edad_y_alto}")
+print(f"es mayor de edad o alto: {es_mayor_de_edad_o_alto}")
+print(f"no es mayor de edad: {es_mayor_de_edad_no}")
+
+##Las expresiones booleanas serian como edad y altura y para este ejercicio el > tiene que estar apuntando hacia la opcion que se requiera por ejemplo para la edad necesitamos que tena mas de 18 años ,entonces queda asi edad >=18,si el daro de edad es menor a 18 marcara false a es mayor de edad
+
+##Ejercicio 8##
+v1 = 7
+v2 = 8
+v3 = 8
+promedio = (v1 + v2 + v3)/3
+positivo = promedio >= 6 
+print(f"calificaciones: {v1}, {v2}, {v3}")
+print(f"promedio: {promedio}")
+print(f"está aprobado: {positivo}")
+
+v1 = 6
+v2 = 5
+v3 = 4
+promedio = (v1 + v2 + v3)/3
+positivo = promedio >= 6 
+print(f"calificaciones: {v1}, {v2}, {v3}")
+print(f"promedio: {promedio}")
+print(f"está aprobado: {positivo}")
+##para sacar el promedio se suman las variables y se dividen entre el numero de variables y para saber si esta aprovado se hace una expresion booleana que diga si el promedio es mayor o igual a 6 y para que se pueda expresar correctamente se tiene que imprimir de forma separada como se muestra en el ejercicio y yimportante no poner ==True despues de el >=6 por que si no solo soltara false##
+
+##Ejercicio 9##
+
+##combinacion 1##
+edad = 18
+nacionalidad = "mexicana"
+es_elegible= edad >=17 and nacionalidad == "mexicana"
+es_elegible_or = edad > 17 or nacionalidad == "mexicana"
+print(f"edad: {edad}")
+print(f"nacionalidad: {nacionalidad}")
+print(f"es elegible: {es_elegible}")
+print(f"es elegible or: {es_elegible_or}")
+
+##combinacion 2##
+
+edad = 15
+nacionalidad = "mexicana"
+es_elegible= edad >=17 and nacionalidad == "mexicana"
+es_elegible_or = edad > 17 or nacionalidad == "mexicana"
+print(f"edad: {edad}")
+print(f"nacionalidad: {nacionalidad}")
+print(f"es elegible: {es_elegible}")
+print(f"es elegible or: {es_elegible_or}")
+
+##combinacion 3##
+
+edad = 25
+nacionalidad = "canadienses"
+es_elegible= edad >=17 and nacionalidad == "mexicana"
+es_elegible_or = edad > 17 or nacionalidad == "mexicana"
+print(f"edad: {edad}")
+print(f"nacionalidad: {nacionalidad}")
+print(f"es elegible: {es_elegible}")
+print(f"es elegible or: {es_elegible_or}")
+
+##combinacion 4##
+
+edad = 15
+nacionalidad = "canadienses"
+es_elegible= edad >=17 and nacionalidad == "mexicana"
+es_elegible_or = edad > 17 or nacionalidad == "mexicana"
+print(f"edad: {edad}")
+print(f"nacionalidad: {nacionalidad}")
+print(f"es elegible: {es_elegible}")
+print(f"es elegible or: {es_elegible_or}")
+
+##el es elegible se escibre como edad >=17 and nacionalidad == "mexicana" y el es elegible or se escribe como edad > 17 or nacionalidad == "mexicana" y para que funcione correctamente se tiene que poner print(f" etc) y las variables van entre {} y si no se hace asi solo imprimira el texto dentro de los parentesis##
