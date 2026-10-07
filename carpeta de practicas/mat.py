@@ -1,6 +1,5 @@
-a = 5 > 3
-b = not (5 > 3 )
-print(a, b)
-libro2 = "principito"
-
-
+precio = 100
+descuento =0.10
+iva = 0.16
+total = (precio - precio) * descuento + precio * iva
+print(total)
