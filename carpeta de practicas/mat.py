@@ -42,3 +42,41 @@ print("...listo")
 edad = int((input("edad:")))
 suma = (edad + 1)
 print("el proximo año tendras", edad + 1,"años")
+
+nombre = input("como te llamas:")
+print(f"hola, {nombre}")
+
+##int sirve para guardar datos numericos y no los guarde como texto/variable 
+
+nombre = "ana" 
+print("hola,", nombre)
+
+##p2f funciona para controlar los decimales de lo que imprimas
+##strip elimina los espacios extraq al inicio y fin de un texto
+
+dato = input("escribe un numero: ")
+print(dato.isdigit())
+
+##esto controla que el usuario ingrese un numero
+
+dato = input("tu nombre: ")
+print(len(dato) > 0)
+
+## len revisa la longitud de las respuestas
+print("7".isdigit()) #true
+print("siete".isdigit()) #false
+print("-7".isdigit()) #false
+
+#.isdigit() revisa si es verdadero o falso y si es digito o no
+115/2
+print(115/2)
+115%2
+print(115%2)
+
+dato = input("escribe un numero par: ")
+print(int(dato) % 2 == 0)
+
+dato = int(input("escribe tu edad: "))
+es_valida = len(str(dato)) > 0 and str(dato).isdigit() and dato < 100 and dato > 0
+print(f"¿edad válida? {es_valida}")
+
