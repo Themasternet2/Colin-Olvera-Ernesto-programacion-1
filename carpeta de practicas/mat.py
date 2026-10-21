@@ -1,3 +1,4 @@
+"""""
 precio = 100
 descuento =0.10
 iva = 0.16
@@ -79,4 +80,74 @@ print(int(dato) % 2 == 0)
 dato = int(input("escribe tu edad: "))
 es_valida = len(str(dato)) > 0 and str(dato).isdigit() and dato < 100 and dato > 0
 print(f"¿edad válida? {es_valida}")
+"""""
+##if=si entonces
+##else = si no
+##elif = si y no entonces
+## ejemplo:
 
+x=10.1
+if x > 10:
+    print("x es mayor que y")
+else:
+    print("x no es mayor que y")
+
+##elif ejemplo
+
+x= 5
+y= 5
+if x >y:
+    print("x es mayor")
+elif x < y:
+    print("y es mayor")
+else:
+    print("son iguales")
+
+##90 o mas = a
+##70 0 mas = b
+##menos de 70 =c
+
+nota = 67
+if nota > 90:
+    print("A")
+elif nota > 70:
+    print("B")
+else:
+    print("C")
+
+z = 11
+c=0 >= z >=10
+print(c)
+
+## 0 <= x <=10 es igual a x >= 0 and x <= 10
+
+temp= 67
+if temp < 10:
+    print("frio")
+elif temp <25:
+    print("templado")
+else:
+    print("calor")
+
+
+cantidad2 = 150
+if cantidad2 > 100:
+    print("20% de descuento")
+elif cantidad2 > 50:
+    print("10% de descuento")
+else:
+    print("sin descuento")
+
+cantidad = int(input("ingrese cantidad: "))
+if cantidad > 100:
+    print("20% de descuento  ")
+    precio_des= cantidad*0.20 
+    precio_final= cantidad-precio_des
+    print(precio_final)
+elif cantidad > 50:
+    print("10% de descuento  ")
+    precio_des = cantidad*0.10
+    precio_final = cantidad-precio_des
+    print(precio_final)
+else:
+    print("sin descuento")
