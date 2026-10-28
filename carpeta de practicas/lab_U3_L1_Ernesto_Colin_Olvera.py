@@ -1,7 +1,6 @@
 ##Ejercicio 1
 ##Ernesto Colin Olvera 226150949
 
-"""""
 edad = int(input("Ingrese su edad "))
 if edad >18: 
     print("es un adulto ")
@@ -112,7 +111,7 @@ elif imc > 18.5 and imc <25:
     print("usted tiene un peso normal,siga con su forma de vida saludable,su imc es ",imc)
 else:
     print("usted tiene bajo peso,le recomendamos que mejore sus habitos alimenticios,su imc es ",imc)
-"""
+
 
 ##Ejercicio 9
 
