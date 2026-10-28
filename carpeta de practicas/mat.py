@@ -80,7 +80,7 @@ print(int(dato) % 2 == 0)
 dato = int(input("escribe tu edad: "))
 es_valida = len(str(dato)) > 0 and str(dato).isdigit() and dato < 100 and dato > 0
 print(f"¿edad válida? {es_valida}")
-"""""
+
 ##if=si entonces
 ##else = si no
 ##elif = si y no entonces
@@ -151,3 +151,28 @@ elif cantidad > 50:
     print(precio_final)
 else:
     print("sin descuento")
+"""""
+
+for _ in range(5):
+    print("hola")
+
+for _ in range(8):
+    print("hola ",end="")
+
+
+for i in range(2,6):
+    print(i,end="")
+
+for i in range(5):
+    print(i,end="")
+
+for i in range(0,10,2):
+    print(i)
+
+for i in range(5,0,-1):
+    print(i)
+
+##ejemplo 
+##range(fin)= fin-1
+##range(inicio,fin,paso)
+##range(inicio,final)
