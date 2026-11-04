@@ -151,7 +151,6 @@ elif cantidad > 50:
     print(precio_final)
 else:
     print("sin descuento")
-"""""
 
 for _ in range(5):
     print("hola")
@@ -176,3 +175,78 @@ for i in range(5,0,-1):
 ##range(fin)= fin-1
 ##range(inicio,fin,paso)
 ##range(inicio,final)
+"""""
+
+for _ in range(5):
+    print("gitcloneate")
+
+contador = 0
+##while se usa cuando no sabemos cuanto se va a repetir un evento
+while contador< 5:
+    print(contador)
+    contador = contador+1
+
+clave="123"
+while clave !="el arma w":
+    clave=input("ingrese clave: ")
+print("clave correcta")
+
+##break sirve para romper el bucle
+
+while True:
+    print("se ejecuta al menos una vez")
+    user_input = input("¿quieres continuar? (y/n):")
+    if user_input.lower() != 'y':#upper()
+        break
+##lower sirve para convertir las letras mayusculas en minusculas
+
+contador = 0 
+for _ in range(5):
+    contador = contador+1
+print(contador)
+
+precios = [50,120,30]
+total=0
+for precio in precios :
+    total = total + precio
+print(total)
+
+##in recorre posicion por posicion de una lista
+
+precios = ["net","kandy","saori"]
+total=0
+for precio in precios :
+    print(precio)
+
+matriz = [
+    [1,2,3],
+    [4,5,6]
+]
+
+print(matriz[0][0])     #fila 0,columna 1 
+
+matriz = [
+    [15,8],
+    [20,30]
+]
+
+print(matriz[0][0]) 
+
+matriz = [
+    ["s","o","r","p"],
+    ["r","e","s",]
+]
+
+print(matriz[1][0]) 
+
+frutas = ["manzana","pera"]
+frutas.append(input("ingrese fruta: "))             ##agrega al final 
+frutas.insert(1,"kiwi")           ##agrega en la posicion 1
+frutas.remove("pera")             ##elimina el valor asignado
+frutas.pop(0)                     ##elimina por indice (elimina la posicion asignada)
+del frutas[0]                     ##elimina por indice (elimina la posicion asignada)
+print(frutas)
+
+frutas = ["manzana","pera","uva"]
+print("pera" in frutas) #True  ##index es indice
+print(frutas.index("uva")) #2
