@@ -16,8 +16,16 @@ salon[0][1] = "carla"                  #reemplaza un alumno
 print(salon)
 
 
-for fila in range(3):       #columna hace 3 iteraciones y fila hace las mismas 3 interacciones
-    for columna in range(3):
-        print("*", end="")                #end="" evita que se haga un salto de linea 
+for fila in range(3):  
+    for columna in range(3): 
+        print("*", end="")                                   #end="" evita que se haga un salto de linea 
     print()
 
+for fila in range(1, 3):
+    for columna in range(1, 3):
+        print(fila,columna)
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        resultado = i * j
+        print(i, "x", j, "=", resultado)
