@@ -97,3 +97,16 @@ from random import choice
 
 opciones = ["piedra", "papel", "tijeras"]
 print(choice(opciones))
+
+import random
+
+numero_secreto = random.randint(1, 137500)
+print("adivina un numero entre 1 y 137500")
+print(numero_secreto)
+
+import math
+
+radio = 5
+area = math.pi * radio **2
+print(f"area del circulo:{area:.2f}") 
+# buscar la documentacion de python en su pagina
