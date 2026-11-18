@@ -30,7 +30,7 @@ for i in range(1, 4):
     for j in range(1, 4):
         resultado = i * j
         print(i, "x", j, "=", resultado)
-"""""
+
 
 numeros = [4,9,-2,7,-5]
 for n in numeros:
@@ -50,3 +50,85 @@ print(alumno)
 alumno["promedio"]=9.5 #inserta
 del alumno["carrera"]  #elimina
 print(alumno)
+
+"""""
+def es_mayor_de_edad(edad):   ##def se usa para para deficinir una funcion como si fuera una constante 
+    return edad >= 18
+print(es_mayor_de_edad(20))
+print(es_mayor_de_edad(15))
+
+board = [[" " for _ in range(3)] for _ in range(3)]
+def print_board(board):
+    print("\n")
+    for row in board:
+        print("|".join(row))
+        print("-"*5)
+
+print_board(board)
+
+def duplicar(numero):
+    return numero *2
+
+resultado = duplicar(5)
+print(resultado)
+
+def check_winner(board, player):
+    for row in board:
+        if all(cell == player for cell in row):
+            return True
+    for col in range(3):
+        if all(row[col] == player for row in board):
+            return True
+    if all(board[i][i] == player for i in range(3)) or all(board[i][2 - i] ==
+player for i in range(3)):
+        return True
+    return False
+
+
+
+
+
+# Function to print the Tic Tac Toe board
+def print_board(board):
+   print("\n")
+   for row in board:
+       print(" | ".join(row))
+       print("-" * 5)
+# Function to check for a winner
+def check_winner(board, player):
+   # Check rows, columns, and diagonals
+   for row in board:
+       if all(cell == player for cell in row):
+           return True
+   for col in range(3):
+       if all(row[col] == player for row in board):
+           return True
+   if all(board[i][i] == player for i in range(3)) or all(board[i][2 - i] == player for i in range(3)):
+       return True
+   return False
+# Main game function
+def tic_tac_toe():
+   board = [[" " for _ in range(3)] for _ in range(3)]
+   players = ["X", "O"]
+   turn = 0
+   while turn < 9:
+       print_board(board)
+       current_player = players[turn % 2]
+       print(f"Player {current_player}'s turn.")
+       try:
+           row, col = map(int, input("Enter row and column (0-2) separated by space: ").split())
+           if board[row][col] != " ":
+               print("Cell already taken! Try again.")
+               continue
+           board[row][col] = current_player
+           if check_winner(board, current_player):
+               print_board(board)
+               print(f"Player {current_player} wins!")
+               return
+           turn += 1
+       except (ValueError, IndexError):
+           print("Invalid input! Enter numbers between 0 and 2.")
+   print_board(board)
+   print("It's a draw!")
+# Run the game
+tic_tac_toe()
